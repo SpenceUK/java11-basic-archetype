@@ -13,6 +13,7 @@ Java 11 base application.
 ### Support
 
 * general GitIgnore file generated using [gitignore.io](https://www.gitignore.io)
+* checkstyle with [google java style](https://checkstyle.sourceforge.io/google_style.html)
 
 ### License, copyright and header
 
