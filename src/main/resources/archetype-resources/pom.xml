@@ -130,6 +130,9 @@
             </goals>
             <phase>process-sources</phase>
             <configuration>
+              <includes>
+                <include>**/*.java</include>
+              </includes>
               <licenseName>mit</licenseName>
               <sectionDelimiter>------</sectionDelimiter>
               <canUpdateCopyright>true</canUpdateCopyright>

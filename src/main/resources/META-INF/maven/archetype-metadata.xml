@@ -36,6 +36,9 @@ under the License.
       <directory/>
       <includes>
         <include>README.md</include>
+        <include>.gitignore</include>
+        <include>checkstyle.xml</include>
       </includes>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
