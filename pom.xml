@@ -10,7 +10,10 @@
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - java11-basic-archetype</name>
-
+  <inceptionYear>2020</inceptionYear>
+  <organization>
+    <name>SpenceUK</name>
+  </organization>
   <url>https://github.com/SpenceUK/java11-basic-archetype</url>
 
   <properties>
@@ -52,30 +55,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>license-maven-plugin</artifactId>
-        <version>2.0.0</version>
-        <executions>
-          <execution>
-            <id>first</id>
-            <goals>
-              <goal>update-file-header</goal>
-            </goals>
-            <phase>process-sources</phase>
-            <configuration>
-              <licenseName>mit</licenseName>
-              <sectionDelimiter>------</sectionDelimiter>
-              <canUpdateCopyright>true</canUpdateCopyright>
-              <canUpdateDescription>true</canUpdateDescription>
-              <processEndTag>=====LICENSE-END=====</processEndTag>
-              <processStartTag>=====LICENSE-START=====</processStartTag>
-              <addJavaLicenseAfterPackage>false</addJavaLicenseAfterPackage>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
   </build>
 </project>
