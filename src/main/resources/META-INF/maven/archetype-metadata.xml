@@ -32,5 +32,10 @@ under the License.
     <fileSet filtered="true" packaged="true">
       <directory>src/test/java</directory>
     </fileSet>
+    <fileSet filtered="true" packaged="false">
+      <directory/>
+      <includes>
+        <include>README.md</include>
+      </includes>
   </fileSets>
 </archetype-descriptor>
