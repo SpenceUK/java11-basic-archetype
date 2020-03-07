@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.spenceuk.archetypes</groupId>
@@ -10,11 +10,34 @@
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - java11-basic-archetype</name>
+  <description>Java 11 project archetype with: Junit5, AssertJ, Mockito, Checkstyle and License Headers</description>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
   <inceptionYear>2020</inceptionYear>
   <organization>
     <name>SpenceUK</name>
   </organization>
   <url>https://github.com/SpenceUK/java11-basic-archetype</url>
+
+  <developers>
+    <developer>
+      <name>Chris Spence</name>
+      <email>christopherspenceuk@outlook.com</email>
+      <organization>SpenceUK</organization>
+      <organizationUrl>https://github.com/SpenceUK</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git://github.com/SpenceUK/java11-basic-archetype.git</connection>
+    <developerConnection>scm:git:ssh://github.com:SpenceUK/java11-basic-archetype.git</developerConnection>
+    <url>https://github.com/SpenceUK/java11-basic-archetype/master</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
