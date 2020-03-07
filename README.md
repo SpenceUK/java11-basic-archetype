@@ -6,13 +6,19 @@ Java 11 base application.
 
 ## BASE SETUP
 
-### DEPENDENCIES
+### Dependencies
 
 * Junit 5
 * AssertJ
 * Mockito
 
-### LICENSE
+### Support
+
+* general GitIgnore file generated using [gitignore.io](https://www.gitignore.io)
+
+### License, copyright and header
+
+Automatically update license header and copyright header in each src file, default license is:
 
 * MIT License
 
