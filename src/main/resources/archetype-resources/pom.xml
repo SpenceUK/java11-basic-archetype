@@ -131,7 +131,8 @@
             <phase>process-sources</phase>
             <configuration>
               <includes>
-                <include>**/*.java</include>
+                <include>**/src/main/**/*.java</include>
+                <include>**/src/test/**/*.java</include>
               </includes>
               <licenseName>mit</licenseName>
               <sectionDelimiter>------</sectionDelimiter>
