@@ -38,10 +38,13 @@ To see the license details:
 
 ## POM Maven settings.xml
 
-required settings file:
+required settings file in your .m2 folder locally:
 
 ```xml
-<settings>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
       <id>ossrh</id>
