@@ -18,7 +18,7 @@ Then you can use the archetype to generate a new Java11 project in any directory
 mvn archetype:generate \
   -DarchetypeGroupId=io.github.spenceuk \
   -DarchetypeArtifactId=java11-basic-archetype \
-  -DarchetypeVersion=1.0
+  -DarchetypeVersion=<latest version number>
 ```
 
 ## BASE SETUP
