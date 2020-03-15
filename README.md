@@ -4,6 +4,23 @@ Maven archetype for a java 11 project setup with base test dependencies.
 
 Java 11 base application.
 
+## Install and using locally
+
+clone this project, build and install into your local maven repository with this command:
+
+```bash
+mvn clean install
+```
+
+Then you can use the archetype to generate a new Java11 project in any directory using this command:
+
+```bash
+mvn archetype:generate \
+  -DarchetypeGroupId=io.github.spenceuk \
+  -DarchetypeArtifactId=java11-basic-archetype \
+  -DarchetypeVersion=1.0
+```
+
 ## BASE SETUP
 
 ### Dependencies
@@ -15,6 +32,7 @@ Java 11 base application.
 ### Support
 
 * general GitIgnore file generated using [gitignore.io](https://www.gitignore.io)
+* checkstyle with [google java style](https://checkstyle.sourceforge.io/google_style.html)
 
 ### License, copyright and header
 
@@ -66,6 +84,13 @@ answer relase and tag prompts and then to RELEASE:
 
 ```bash
 mvn release:perform
+```
+
+### Rollback failed deploymnet
+
+```bash
+mvn release:rollback
+mvn release:clean
 ```
 
 ## Maven settings.xml
