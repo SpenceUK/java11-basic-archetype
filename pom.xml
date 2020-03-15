@@ -35,7 +35,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/SpenceUK/java11-basic-archetype.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:SpenceUK/java11-basic-archetype.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com/SpenceUK/java11-basic-archetype.git</developerConnection>
     <url>https://github.com/SpenceUK/java11-basic-archetype/master</url>
     <tag>release-1.0</tag>
   </scm>
