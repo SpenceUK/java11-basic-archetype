@@ -36,7 +36,39 @@ To see the license details:
   mvn license:license-list -Ddetail
 ```
 
-## POM Maven settings.xml
+## Deployment
+
+To deploy SNAPSHOT:
+
+```bash
+mvn deploy
+```
+
+To update version number:
+
+```bash
+mvn versions:set -DnewVersion=1.2.3
+```
+
+To deploy a RELEASE:
+
+```bash
+mvn clean deploy -P release
+```
+
+To deploy with SCM managed:
+
+```bash
+mvn release:clean release:prepare
+```
+
+answer relase and tag prompts and then to RELEASE:
+
+```bash
+mvn release:perform
+```
+
+## Maven settings.xml
 
 required settings file in your .m2 folder locally:
 
